@@ -16,13 +16,13 @@ export default function RecipeIngredientEdit(props) {
             <input
                 className='recipe-edit__input'
                 type="text"
-                onInput={(e) => handelChange({ name: e.target.value })}
+                onChange={(e) => handelChange({ name: e.target.value })}
                 value={ingredient.name}
             />
             <input
                 className='recipe-edit__input'
                 type="text"
-                onInput={(e) => handelChange({ amount: e.target.value })}
+                onChange={(e) => handelChange({ amount: e.target.value })}
                 value={ingredient.amount}
             />
             <button
